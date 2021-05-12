@@ -1,5 +1,9 @@
 # Rumbl
 
+A Phoenix web app created by following the book [Programming Phoenix ≥ 1.4](https://pragprog.com/titles/phoenix14/programming-phoenix-1-4/).
+
+---
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
