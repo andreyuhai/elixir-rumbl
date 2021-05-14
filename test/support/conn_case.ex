@@ -22,6 +22,7 @@ defmodule RumblWeb.ConnCase do
       # Import conveniences for testing with connections
       import Plug.Conn
       import Phoenix.ConnTest
+      import Rumbl.TestHelpers
       import RumblWeb.ConnCase
 
       alias RumblWeb.Router.Helpers, as: Routes
