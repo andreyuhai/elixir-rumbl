@@ -5,6 +5,7 @@ defmodule Rumbl.Multimedia do
 
   import Ecto.Query, warn: false
   alias Rumbl.Accounts
+  alias Rumbl.Multimedia.Category
   alias Rumbl.Multimedia.Video
   alias Rumbl.Repo
 
