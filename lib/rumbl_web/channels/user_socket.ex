@@ -44,5 +44,5 @@ defmodule RumblWeb.UserSocket do
   #
   # Returning `nil` makes this socket anonymous.
   @impl true
-  def id(_socket), do: nil
+  def id(socket), do: "users_socket:#{socket.assigns.user_id}"
 end
